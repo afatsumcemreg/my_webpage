@@ -1,0 +1,220 @@
+body{
+    padding: 4px;
+    margin: 4px;
+}
+
+header{
+    background-image: url('https://image.shutterstock.com/shutterstock/photos/1890313726/display_1500/stock-photo-web-development-concept-with-person-using-a-laptop-computer-1890313726.jpg');
+    padding: 3px;
+}
+h1 {
+    text-align: center;
+    color: rgb(245, 245, 245);
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;    
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5%;
+    padding: 4px;
+    text-align: center;
+}
+
+a.active:link, a.active:visited {
+    color: blue;
+    text-align: center;
+    background-color: lightgreen;
+}
+
+nav{
+    text-align: center;
+}
+nav a{
+	display: inline-block;
+	background-color: #fff;
+	width:10%;
+    height: 20px;
+    opacity:0.9;
+    filter:alpha(opacity=30);
+    
+}
+
+a:hover{
+    background: #b3b3b3;
+    color: #0006cc;
+}
+
+#main{
+    width: 100%; 
+    min-height: 500px;
+}
+#left{
+    width: 16%;
+    min-height: auto; 
+    background-color: #3cb371;
+    float: left;
+}
+
+#right {
+    width: 84%;
+    min-height: 500px; 
+    background-color: #fff;
+    float: right;
+}
+
+img{
+    width: 235px;
+    border-left: cadetblue;
+    float: left;
+    display: block;
+    border: solid black;
+    margin-bottom: 2%;
+    margin: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2 {
+    text-align: left;
+    color: rgb(0, 0, 139);
+}
+
+p, h1, h2, a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#container{
+    border-collapse: collapse;
+    width: 85%;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+}
+#container td, tr, th{
+    border: 2px solid white;
+    padding: 5px;
+    text-align: left;
+}
+
+#container td{
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 3%;
+}
+#container tr{
+    background-color: gold;
+    opacity: 0.7;
+    width: auto;
+}
+#container tr:hover {
+    background-color: skyblue;
+    opacity: 0.6;
+}
+#container th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: green;
+    color: white;
+    border-bottom: 4px solid white;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+#container tr:first-child{
+    text-align: left;
+}
+
+#image{
+    line-height:950px;
+    width: 575px;
+    height: 700px;
+    border:3px solid black;
+    margin:5px auto;
+    background-color: #CCEECC;
+    background-image: url('');
+    background-repeat: no-repeat;
+    color:#0006cc;
+    text-align: center;
+    background-size: 100%;
+    margin-bottom:10px;
+    font-size: 250%;
+}
+.preview{
+    width:100px;
+    height:150px;
+    margin-left: 3.5%;
+    border: 3px solid black;
+}
+
+details{
+    text-align: justify;
+    width: 100%;
+}
+
+details #container{
+    width: 85%;
+}
+
+details #container tr{
+    background-color: gold;
+}
+
+
+summary{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+fieldset{
+    background-color: lightblue;
+    color: black;
+    width: 83.5%;
+    margin: auto;
+    text-align: justify;
+}
+
+legend{
+    font-size: large;
+}
+
+form{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+}
+
+button{
+    background-color: lightblue;
+    color: black;
+    width: 30%;
+    text-align: left;
+    margin-left: 7.5%;
+}
+
+#all_publication{
+    margin-top: 10px;
+    margin-left: 13%;
+    margin-right: auto;
+    width: auto;
+    background-color: lightblue;
+    text-align: center;
+    display: inline-flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.publication{
+    width:150px;
+    height:150px;
+    margin-left: auto;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    
+}
+
