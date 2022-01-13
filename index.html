@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Home</title>
+		<link rel="stylesheet" href="index.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="index.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>Mustafa Germec</h1>
+			<nav>
+				<a href="index.html" class = "active">Home</a>
+				<a href="education.html" target="_blank">Education</a>
+				<a href="experience.html" target="_blank">Experience</a>
+				<a href="publication.html" target="_blank">Publications</a>
+				<a href="certificate.html" target="_blank">Certificates</a>
+				<a href="projects.html" target="_blank">Projects</a>
+				<a href="photos.html" target="_blank">Photos</a>
+			</nav>
+		</header>
+		<div id='main'>
+			<div id="left">
+				<a href="https://www.akdeniz.edu.tr/" target="_blank"><img src="https://www.remzihoca.com/storage/contents/1603885974-869268.jpg" alt="university"></a>
+				<a href="http://muhendislik.akdeniz.edu.tr/" target="_blank"><img src="https://www.nenerede.com.tr/wp-content/uploads/2017/08/Akdeniz-%C3%9Cniversitesi-M%C3%BChendislik-Fak%C3%BCltesi5.jpg" alt="education_experience"></a>
+				<a href="https://www.elsevier.com/" target="_blank"><img src="https://www.uzh.ch/blog/hbz/files/2020/02/Elsevier.jpg" alt="elsevier"></a>
+				<a href="https://link.springer.com/" target="_blank"><img src="https://esrpc.com/storage/media-center/images/ac-image-zh1527320940HI.gif" alt="springer"></a>
+				<a href="https://onlinelibrary.wiley.com/" target="_blank"><img src="https://www.bium.ch/wp-content/uploads/2018/10/Wiley-1.png" alt="wiley"></a>
+				<a href="https://www.tandfonline.com/" target="_blank"><img src="https://taylorandfrancis.com/wp-content/uploads/2021/04/Organization-logo.png" alt="t&r"></a>
+				<a href="https://www.coursera.org/" target="_blank"><img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-rebrand-logo-square.png?auto=format%2Ccompress&dpr=1" alt="coursera"></a>
+				<a href="https://www.w3schools.com/whatis/" target="_blank"><img src="https://i.ytimg.com/vi/1rsuxwVD98I/maxresdefault.jpg" alt="web_development"></a>
+			</div>
+			<div id="right">
+				<p id="output"></p>
+				<div onclick="name()">
+					<button><strong>Please Click This Button For The Message</strong></button>
+				</div>
+				<br>
+				<form>
+					<fieldset>
+						<legend><strong>Personal Information</strong></legend>
+						<label for="name"><strong>Name </strong></label>
+						<input type="text" id="name" name="name" value="Enter your name"></br></br>
+						<label for="surname"><strong>Surname </strong></label>
+						<input type="text" id="surname" name="surname" value="Enter your surname"></br></br>
+						<label><strong>Email </strong><input type="email" name="email" placeholder="name@gmail.com"></label></br></br>
+						<label for="birthday"><strong>Birthday </strong></label>
+						<input type="date" id="birthday" value="birthday"></br></br>
+						<label for="password"><strong>Password</strong></label>
+						<input type="text" id="password" name="password", value="Enter your password"></br></br>
+						<input type="submit" value="Log In"></br></br>
+					</fieldset><br>
+					<fieldset>
+						<legend><strong>About Me</strong></legend>
+						<p>
+							Hello! Welcome to my webpage. 
+							My name is Mustafa Germec and I am 32 years old. 
+							I am from Turkey. 
+							I got the title of Food Engineer from<span><a href="https://www.akdeniz.edu.tr/" target="_blank">Akdeniz University</a></span>in 2012. 
+							After my BSc graduation, I have completed my Master's and Doctorate studies at the same university. 
+							Between April 2013 and December 2013, I have worked as a Food Engineer in the food sector. 
+							Followed by, I have worked as a Research Assistant at Akdeniz University between 2013-2017. 
+							After I have lost my job, I have worked as a Food Engineer in a Catering Company. 
+							I am married and have a son. 
+							Now I am living in Switzerland. 
+							On this webpage, you will find more information about me. 
+							This webpage includes information about my educations, experiences, publications, certificates, projects, and photos showing my interests.  
+						</p>
+						<p>
+							On the other hand, nowadays I am learning German, writing my scientific articles, and reviewing the scientific articles. 
+							Besides, I am interested in programming, data science, and web development. 
+							Therefore, in my free time, I am learning programming languages (Python and JavaScript), HTML, CSS, SQL, and data science. 
+							The purpose of my learning is to integrate them with my area of expertise (production, purification, and characterization of value-added products, 
+							pretreatment processes of renewable resources, and statistical, kinetical, and mathematical modeling of fermentation processes), train myself, and find a good job in Switzerland. 
+							I hope I progress without deviation in the direction of my targets. 
+						</p>
+					</fieldset>
+				</form><br>
+				<table id="container">
+					<tr>
+						<th><h3>Information</h3></th>
+						<th><h3>Contact</h3></th>
+						<th><h3>Hobbies</h3></th>
+						<th><h3>Languages</h3></th>
+					</tr>
+					<tr>
+						<td>Birthday: 1990</td>
+						<td>Phone: 076-230-62-76</td>
+						<td>Cooking</td>
+						<td>German: Full Professional Competence</td>
+					<tr>
+					<tr>
+						<td>Country:<a href="https://www.britannica.com/place/Turkey" target="_blank">Turkey</a></td>
+						<td>Website:<a href="https://www.linkedin.com/in/mustafa-germec/" target="_blank" class="fa fa-linkedin"><a href="https://scholar.google.com.tr/citations?user=EVVPCf4AAAAJ&hl=tr&oi=ao" target="_blank" class="fa fa-google"></a></td>
+						<td>Take for a walk</td>
+						<td>English: Full Professional Competence</td>
+					</tr>
+					<tr>
+						<td>Marital Status: Married</td>
+						<td>E-mail: afatsumcemreg@gmail.com</td>
+						<td>Writing and reading scientific articles</td>
+						<td>Turkish: Mothertongue</td>
+					</tr>
+					<tr>
+						<td>Child: Yes</td>
+						<td>Location:<a href="https://www.myswitzerland.com/de-ch/" target="_blank">Switzerland</a></td>
+						<td>Learning new information</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Smoking: No</td>
+						<td></td>
+						<td>Listen to music</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Driving Licence: B</td>
+						<td></td>
+						<td>Watching movies and series</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Residence Permit: B</td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</table><br>
+			</div>
+		</div>
+	</body>
+</html>
